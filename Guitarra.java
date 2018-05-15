@@ -15,7 +15,7 @@ public class Guitarra {
     private String numeroSerie, fabricante, modelo, tipo, madeira;
     private double preco;
     
-    public guitarra(
+    public Guitarra(
         String numeroSerie, String fabricante,
         String modelo, String tipo,
         String madeira, double preco){
