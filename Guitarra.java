@@ -10,7 +10,7 @@
  */
 package unidade_1;
 
-public class guitarra {
+public class Guitarra {
     
     private String numeroSerie, fabricante, modelo, tipo, madeira;
     private double preco;
@@ -63,12 +63,12 @@ public class guitarra {
     }
  public static void main(String[] args){
      
-     guitarra minhaguitarra = new guitarra("01020304", "fender", "telecaster","eletrica", "mogno", 1500);
+     Guitarra minhaGuitarra = new Guitarra("01020304", "fender", "telecaster","eletrica", "mogno", 1500);
      
-     System.out.println(minhaguitarra.getNumeroSerie());
-     System.out.println(minhaguitarra.getMadeira());
-     System.out.println(minhaguitarra.getPreco());
-     System.out.println(minhaguitarra.getTipo());
+     System.out.println(minhaGuitarra.getNumeroSerie());
+     System.out.println(minhaGuitarra.getMadeira());
+     System.out.println(minhaGuitarra.getPreco());
+     System.out.println(minhaGuitarra.getTipo());
  }    
     
 }
